@@ -1,0 +1,3 @@
+REFGENE=/samprojects/Dades_affymetrix/RNA_seq/Ref_Genomes_fa
+
+hisat2-build -p 10 $REFGENE/GRCm38.primary_assembly.genome.fa Idx_Gencode17_mm10_readlength240

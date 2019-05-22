@@ -1,0 +1,97 @@
+#Test0
+
+#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files0
+#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam
+#hisat2 --threads 10 --time -q -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768412.sam
+#hisat2 --threads 10 --time -q -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/3.txt
+#rm -f $OUTDIR/SRR768413.sam
+#hisat2 --threads 10 --time -q -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+#rm -f $OUTDIR/SRR768414.sam
+
+#Test1
+
+#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files1
+#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam 
+#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768412.sam
+#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768413.sam
+#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+#rm -f $OUTDIR/SRR768414.sam
+
+#Test2
+
+#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files2
+#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam
+#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768412.sam
+#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768413.sam
+#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+#rm -f $OUTDIR/SRR768414.sam
+
+#Test3
+
+#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files3
+#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam
+#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768412.sam
+#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768413.sam
+#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+#rm -f $OUTDIR/SRR768414.sam
+
+#Test4
+
+#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files4
+#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam
+#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768412.sam
+#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768413.sam
+#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+#rm -f $OUTDIR/SRR768414.sam
+
+#Test5
+
+#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files5
+#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam
+#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768412.sam
+#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/2.txt
+#rm -f $OUTDIR/SRR768413.sam
+#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+#rm -f $OUTDIR/SRR768414.sam
+
+#Test6
+
+OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetB/BAM_files6
+IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetB
+
+#hisat2 --threads 10 --time -q --mp 3,0 --pen-noncansplice 12 --sp 3,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768411_1.fastq -2 $IDXDIR/SRR768411_2.fastq -S $OUTDIR/SRR768411.sam --summary-file $OUTDIR/1.txt
+#rm -f $OUTDIR/SRR768411.sam
+hisat2 --threads 10 --time -q --mp 3,0 --pen-noncansplice 12 --sp 3,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768412_1.fastq -2 $IDXDIR/SRR768412_2.fastq -S $OUTDIR/SRR768412.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR768412.sam
+hisat2 --threads 10 --time -q --mp 3,0 --pen-noncansplice 12 --sp 3,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768413_1.fastq -2 $IDXDIR/SRR768413_2.fastq -S $OUTDIR/SRR768413.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR768413.sam
+hisat2 --threads 10 --time -q --mp 3,0 --pen-noncansplice 12 --sp 3,0 -x $IDXDIR/Idx_Gencode_hg38 -1 $IDXDIR/SRR768414_1.fastq -2 $IDXDIR/SRR768414_2.fastq -S $OUTDIR/SRR768414.sam --summary-file $OUTDIR/4.txt
+rm -f $OUTDIR/SRR768414.sam
