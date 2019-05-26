@@ -15,76 +15,76 @@ rm -f $OUTDIR/SRR342458.sam
 
 #Test1
 
-#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files1
-#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
+OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files1
+IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
 
-#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
-#rm -f $OUTDIR/SRR327045.sam
-#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
-#rm -f $OUTDIR/SRR327047.sam
-#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
-#rm -f $OUTDIR/SRR342457.sam
-#hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
-#rm -f $OUTDIR/SRR342458.sam
+hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
+rm -f $OUTDIR/SRR327045.sam
+hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR327047.sam
+hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
+rm -f $OUTDIR/SRR342457.sam
+hisat2 --threads 10 --time -q --mp 3,2 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
+rm -f $OUTDIR/SRR342458.sam
 
 #Test2
 
-#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files2
-#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
+OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files2
+IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
 
-#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
-#rm -f $OUTDIR/SRR327045.sam
-#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
-#rm -f $OUTDIR/SRR327047.sam
-#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
-#rm -f $OUTDIR/SRR342457.sam
-#hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
-#rm -f $OUTDIR/SRR342458.sam
+hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
+rm -f $OUTDIR/SRR327045.sam
+hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR327047.sam
+hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
+rm -f $OUTDIR/SRR342457.sam
+hisat2 --threads 10 --time -q  --mp 6,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
+rm -f $OUTDIR/SRR342458.sam
 
 
 #Test3
 
-#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files3
-#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
+OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files3
+IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
 
-#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
-#rm -f $OUTDIR/SRR327045.sam
-#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
-#rm -f $OUTDIR/SRR327047.sam
-#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
-#rm -f $OUTDIR/SRR342457.sam
-#hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
-#rm -f $OUTDIR/SRR342458.sam
+hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
+rm -f $OUTDIR/SRR327045.sam
+hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR327047.sam
+hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
+rm -f $OUTDIR/SRR342457.sam
+hisat2 --threads 10 --time -q --pen-noncansplice 12 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
+rm -f $OUTDIR/SRR342458.sam
 
 
 #Test4
 
-#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files4
-#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
+OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files4
+IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
 
-#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
-#rm -f $OUTDIR/SRR327045.sam
-#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
-#rm -f $OUTDIR/SRR327047.sam
-#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
-#rm -f $OUTDIR/SRR342457.sam
-#hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
-#rm -f $OUTDIR/SRR342458.sam
+hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
+rm -f $OUTDIR/SRR327045.sam
+hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR327047.sam
+hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
+rm -f $OUTDIR/SRR342457.sam
+hisat2 --threads 10 --time -q --sp 3,1 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
+rm -f $OUTDIR/SRR342458.sam
 
 
 #Test5
 
-#OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files5
-#IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
+OUTDIR=/samscratch/Test_Cris_mouse/TFG/HISAT2/SetA/BAM_files5
+IDXDIR=/samscratch/Test_Cris_mouse/TFG/RawData/SetA
 
-#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
-#rm -f $OUTDIR/SRR327045.sam
-#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
-#rm -f $OUTDIR/SRR327047.sam
-#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
-#rm -f $OUTDIR/SRR342457.sam
-#hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
-#rm -f $OUTDIR/SRR342458.sam
+hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327045_1.fastq -2 $IDXDIR/SRR327045_2.fastq -S $OUTDIR/SRR327045.sam --summary-file $OUTDIR/1.txt
+rm -f $OUTDIR/SRR327045.sam
+hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR327047_1.fastq -2 $IDXDIR/SRR327047_2.fastq -S $OUTDIR/SRR327047.sam --summary-file $OUTDIR/2.txt
+rm -f $OUTDIR/SRR327047.sam
+hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342457_1.fastq -2 $IDXDIR/SRR342457_2.fastq -S $OUTDIR/SRR342457.sam --summary-file $OUTDIR/3.txt
+rm -f $OUTDIR/SRR342457.sam
+hisat2 --threads 10 --time -q --sp 2,0 -x $IDXDIR/Idx_Gencode17_mm10_readlength240 -1 $IDXDIR/SRR342458_1.fastq -2 $IDXDIR/SRR342458_2.fastq -S $OUTDIR/SRR342458.sam --summary-file $OUTDIR/4.txt
+rm -f $OUTDIR/SRR342458.sam
 
 #Test6
 
